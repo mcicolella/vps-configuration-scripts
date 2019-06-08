@@ -25,4 +25,12 @@ sudo apt-get install curl python-software-properties
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install nodejs
 
+# Add Java default Jdk
+sudo apt-get install default-jdk
+
+# Add Netbeans 8.2 (working only with Java 8)
+wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh
+chmod +x netbeans-8.2-linux.sh 
+./netbeans-8.2-linux.sh
+
 
